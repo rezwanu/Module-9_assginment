@@ -79,7 +79,7 @@ const fetchPostsData = async () => {
 
             div.innerHTML = `
                 <div class="blog_box">
-                    <img src="${photo?.url}" alt="">
+                    <img src="${photo.url}" alt="">
                     <div class="blog-content">
                         <h3 class="heading">
                             <a href="#">${post.title}</a>
